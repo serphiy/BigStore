@@ -1,0 +1,26 @@
+@import "partial/_normalize.scss";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+    color: #4b4b4b;
+    font-family: "Arial MT", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+@import "partial/_header.scss";
+@import "partial/_promo.scss";
+@import "partial/_featured.scss";
+@import "partial/_new-products.scss";
+@import "partial/_trending.scss";
+@import "partial/_newsletter.scss";
+@import "partial/_footer.scss";
