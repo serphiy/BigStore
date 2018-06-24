@@ -6,17 +6,17 @@ header#page-header.page-header
         .header-interactions
             ul.social
                 li.social__item
-                    a.social__link(href="#") Twitter
+                    a.social__link.social__link_twitter(href="#") Twitter
                 li.social__item
-                    a.social__link(href="#") Facebook
+                    a.social__link.social__link_facebook(href="#") Facebook
                 li.social__item
-                    a.social__link(href="#") Dribbble
+                    a.social__link.social__link_dribbble(href="#") Dribbble
                 li.social__item
-                    a.social__link(href="#") LastFM
+                    a.social__link.social__link_lastfm(href="#") LastFM
                 li.social__item
-                    a.social__link(href="#") LinkedIn
+                    a.social__link.social__link_linkedin(href="#") LinkedIn
                 li.social__item
-                    a.social__link(href="#") Tumbir
+                    a.social__link.social__link_tumblr(href="#") Tumblr
             form.search
                 input.search__text(type="text" placeholder="Search")
                 span.search__submit-wrapper
@@ -38,17 +38,16 @@ header#page-header.page-header
         .header-current
             .latest-news August .12 .2012 - Syrian prime minister defects, fighting goes on
             .cart
-                span.cart__title Shopping Cart:
-                |
-                |
-                span.cart__amount 0
-                |
-                |
-                span.cart__desc item(s) -
-                |
-                |
-                span.cart__value $0.00
-                |
-                |
+                .cart__desc
+                    span.cart__title Shopping Cart:
+                    |
+                    |
+                    span.cart__amount 0
+                    |
+                    |
+                    span.cart__desc item(s) -
+                    |
+                    |
+                    span.cart__value $0.00
                 a.cart__open(href="#") Cart
 
